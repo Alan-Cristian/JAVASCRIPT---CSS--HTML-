@@ -1,0 +1,62 @@
+Manipulação do DOM com JavaScript
+Descrição: Exemplos de como manipular o DOM (Document Object Model) usando JavaScript.
+javascript
+Copy code
+// Exemplo de manipulação do DOM
+document.getElementById("meuElemento").innerHTML = "Novo Conteúdo";
+
+// Adicionando um novo elemento
+var novoElemento = document.createElement("p");
+novoElemento.textContent = "Texto do Novo Elemento";
+document.body.appendChild(novoElemento);
+2. Estilizando com CSS
+Descrição: Demonstração de estilos básicos usando CSS.
+css
+Copy code
+/* Exemplo de estilização com CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.meu-elemento {
+    color: #3498db;
+    font-size: 18px;
+}
+3. Criando Páginas com HTML
+Descrição: Exemplos de estruturação de páginas usando HTML.
+html
+Copy code
+<!-- Exemplo de estrutura HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Minha Página</h1>
+    <p class="meu-elemento">Este é um parágrafo.</p>
+    <script src="script.js"></script>
+</body>
+</html>
+4. Eventos em JavaScript
+Descrição: Utilização de eventos em JavaScript para interatividade.
+javascript
+Copy code
+// Exemplo de manipulação de eventos
+document.getElementById("meuBotao").addEventListener("click", function() {
+    alert("Botão clicado!");
+});
+5. Responsividade com Media Queries em CSS
+Descrição: Adaptação de estilos com base no tamanho da tela.
+css
+Copy code
+/* Exemplo de media query para responsividade */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #fff;
+    }
+}
